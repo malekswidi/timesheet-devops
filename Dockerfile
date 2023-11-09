@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 9091
-ADD target/achat-1.2.jar achat-1.2.jar
-ENTRYPOINT ["java","-jar","/achat-1.0.jar"]
+ADD target/timesheet-devops-1.2.jar timesheet-devops-1.2.jar
+ENTRYPOINT ["java","-jar","/timesheet-devops-1.0.jar"]
